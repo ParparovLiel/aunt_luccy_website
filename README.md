@@ -1,31 +1,98 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/89IMDEJr)
+# Aunt Lucy – Responsive RTL Website
 
-# Aunt Lucy – Personal Website
+## Overview
 
-## About the Project
-This website presents the character of **Aunt Lucy**, a fictional figure that embodies warmth, optimism, and creativity. The site was designed to reflect her unique personality, using a soft and natural color palette, rounded typography, and friendly illustrations.
+A responsive personal website built using HTML5, CSS3, and vanilla JavaScript.
 
-The project was created as part of the Web Development course and aims to showcase both design thinking and practical implementation of HTML/CSS.
+The project presents a fictional character ("Aunt Lucy") and focuses on clean layout structure, RTL support, visual consistency, and lightweight client-side interactivity.
 
-## Website Structure
-- **About** – A personal introduction to Aunt Lucy, her background, and favorite hobbies.
-- **Gallery** – A curated selection of visual memories from Aunt Lucy’s life.
-- **Playlist** – A list of songs that accompanied her through various moments.
-- **Like & QR Section** – Allows visitors to show appreciation and share the site. It also has an interactive question inviting users to vote on future content.
-- **Q&A** – Educational section explaining the differences between Web1, Web2, and Web3.
-- **Contact** – A modern, accessible contact form for reaching out.
+Originally developed as part of a Web Development course and later refined as a structured front-end portfolio project.
+
+---
+
+## Live Demo
+
+https://wed-2023.github.io/211937354/
+
+---
+
+## Main Features
+
+### Layout & Structure
+
+- Semantic HTML structure
+- Section-based layout with anchor navigation
+- Sticky top navigation bar
+- Full RTL (right-to-left) support
+- Responsive design using Flexbox and CSS Grid
+- Consistent typography using Google Fonts (Quicksand)
+- Reusable card components across sections
+
+---
+
+### Interactive Components (Vanilla JavaScript)
+
+**Like Button**
+- Click interaction
+- Random emoji generation
+- Animated floating effect using CSS keyframes
+- Dynamic DOM manipulation
+
+**Poll System**
+- Vote selection
+- Dynamic percentage calculation
+- Animated progress bars
+- Interaction disabled after voting
+
+**Contact Form**
+- Required field validation
+- Basic client-side validation logic
+- Emoji picker integration
+- User feedback on submission
+
+---
+
+## UI / Styling Decisions
+
+- Soft, cohesive color palette
+- Rounded UI elements
+- Hover effects on gallery images and cards
+- Smooth transitions and animations
+- Clear visual hierarchy between sections
+
+---
 
 ## Technologies Used
-- HTML5 & CSS3
-- Responsive design
-- RTL layout
-- Google Fonts: *Quicksand*
-- Minimal use of JavaScript for interactivity (like button, poll)
 
-## Student Info
-- **Name:** Liel Parparov 
-- **ID:** 211937354
+- HTML5  
+- CSS3 (Flexbox, Grid, animations, transitions)  
+- Vanilla JavaScript (event listeners, DOM manipulation)  
+- RTL layout handling  
+- Google Fonts  
 
-## GitHub Pages Link
-[Aunt Luccy](https://wed-2023.github.io/211937354/)
+No external frameworks were used.
 
+---
+
+## Project Structure
+
+index.html  
+style.css  
+/aunt lucy (assets folder)
+
+---
+
+## What This Project Demonstrates
+
+- Ability to build a structured multi-section website from scratch
+- Clean separation between layout, styling, and interaction logic
+- Manual implementation of interactive UI components without frameworks
+- Handling RTL layout correctly across sections
+- Attention to detail in UI consistency
+
+---
+
+## Author
+
+Liel Parparov  
+Software & Information Systems Engineering Student
